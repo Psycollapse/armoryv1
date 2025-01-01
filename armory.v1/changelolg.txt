@@ -1,0 +1,10 @@
+commit 001 - 01-jan-25 \\\
+Added the utils, styles, api, components, pages folders inside armory.v1\app, for structure. it will follow:
+/app
+  /components   # Buttons, forms, reusable components.
+  /pages        # Profile and Armor Builder pages.
+  /styles       # Tailwind setup.
+  /api          # Fetching data from Blizzard APIs.
+  /utils        # Formatters, data transformers.
+
+
