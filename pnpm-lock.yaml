@@ -1,0 +1,104 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      npm:
+        specifier: ^11.0.0
+        version: 11.0.0
+      npx:
+        specifier: ^10.2.2
+        version: 10.2.2
+
+packages:
+
+  npm@11.0.0:
+    resolution: {integrity: sha512-Ed/ylWXSKXx058WUqXYlgb3pafCqXL5vWzZEvwCKFsBl7OYQlNn/u4ESW+ON+OG6Q+uCRLPTDGHreX6aJEDj7A==}
+    engines: {node: ^20.17.0 || >=22.9.0}
+    hasBin: true
+    bundledDependencies:
+      - '@isaacs/string-locale-compare'
+      - '@npmcli/arborist'
+      - '@npmcli/config'
+      - '@npmcli/fs'
+      - '@npmcli/map-workspaces'
+      - '@npmcli/package-json'
+      - '@npmcli/promise-spawn'
+      - '@npmcli/redact'
+      - '@npmcli/run-script'
+      - '@sigstore/tuf'
+      - abbrev
+      - archy
+      - cacache
+      - chalk
+      - ci-info
+      - cli-columns
+      - fastest-levenshtein
+      - fs-minipass
+      - glob
+      - graceful-fs
+      - hosted-git-info
+      - ini
+      - init-package-json
+      - is-cidr
+      - json-parse-even-better-errors
+      - libnpmaccess
+      - libnpmdiff
+      - libnpmexec
+      - libnpmfund
+      - libnpmorg
+      - libnpmpack
+      - libnpmpublish
+      - libnpmsearch
+      - libnpmteam
+      - libnpmversion
+      - make-fetch-happen
+      - minimatch
+      - minipass
+      - minipass-pipeline
+      - ms
+      - node-gyp
+      - nopt
+      - normalize-package-data
+      - npm-audit-report
+      - npm-install-checks
+      - npm-package-arg
+      - npm-pick-manifest
+      - npm-profile
+      - npm-registry-fetch
+      - npm-user-validate
+      - p-map
+      - pacote
+      - parse-conflict-json
+      - proc-log
+      - qrcode-terminal
+      - read
+      - semver
+      - spdx-expression-parse
+      - ssri
+      - supports-color
+      - tar
+      - text-table
+      - tiny-relative-date
+      - treeverse
+      - validate-npm-package-name
+      - which
+
+  npx@10.2.2:
+    resolution: {integrity: sha512-eImmySusyeWphzs5iNh791XbZnZG0FSNvM4KSah34pdQQIDsdTDhIwg1sjN3AIVcjGLpbQ/YcfqHPshKZQK1fA==}
+    deprecated: This package is now part of the npm CLI.
+    hasBin: true
+    bundledDependencies:
+      - npm
+      - libnpx
+
+snapshots:
+
+  npm@11.0.0: {}
+
+  npx@10.2.2: {}
